@@ -1,0 +1,23 @@
+<ion-view view-title="Login" align-title="left">
+    <!-- <ion-content style="background: url(img/login.jpg) center; background-size: cover;"> -->
+    <ion-content style="background:#00464f url(img/login.png) no-repeat right bottom;">
+
+        <div class="hero no-header flat">
+            <div class="content">
+
+                <div class="app-icon"></div><br>
+                <h4>GOBIERNO DE CIUDAD GUADALUPE NUEVO LEÓN </h4>
+            </div>
+        </div>
+        <div class="list">
+            <ion-md-input ng-model="user.email" placeholder="Username" highlight-color="balanced" type="text"></ion-md-input>
+            <ion-md-input ng-model="user.password" placeholder="Password" highlight-color="energized" type="password"></ion-md-input>
+        </div>
+        <div class="padding">
+            <!-- <button ui-sref="app.login" class="button button-full button-assertive ink">Login</button> -->
+            <button  class="button button-stable button-block " ng-click="login()" >Log in</button>
+
+        </div>
+
+    </ion-content>
+</ion-view>
